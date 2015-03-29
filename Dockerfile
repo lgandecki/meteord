@@ -1,5 +1,5 @@
 FROM debian
-MAINTAINER MeteorHacks Pvt Ltd.
+MAINTAINER lgandecki
 
 COPY scripts /opt/meteord
 

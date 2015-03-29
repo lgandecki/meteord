@@ -23,6 +23,6 @@ if [[ $REBULD_NPM_MODULES ]]; then
   cd ../../
 fi
 
-export PORT=80
+export PORT=8080
 echo "starting meteor app on port:$PORT"
-node main.js
+MONGO_URL=mongodb://$MONGO_SERVICE_HOST:$MONGO_SERVICE_PORT node main.js
